@@ -5,7 +5,6 @@ const learn = document.querySelector('.learn')
 const title = document.querySelector('.container h1')
 const back = document.querySelector('.backIcon')
 
-
 const tl = new TimelineLite({ paused: true, reversed: true })
 tl.to('.cover', 1, {
   width: '60%',
@@ -35,8 +34,8 @@ navButton.addEventListener('click', (e) => {
   }
   toggleTween(tl)
 
-  learn.classList.add('remove')
-  title.classList.add('remove')
+  learn.classList.toggle('remove')
+  title.classList.toggle('remove')
 })
 
 back.addEventListener('click', (e) => {
@@ -48,8 +47,8 @@ back.addEventListener('click', (e) => {
   }
   toggleTween(tl)
 
-  learn.classList.remove('remove')
-  title.classList.remove('remove')
+  learn.classList.toggle('remove')
+  title.classList.toggle('remove')
 })
 
 function toggleTween(tween){
