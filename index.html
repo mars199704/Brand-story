@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/all.css">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-closed">
+          <h3 class="title">THE DAISY</h3>
+          <ul class="nav-links">
+            <li>shop</li>
+            <li>blog</li>
+            <li>contact</li>
+          </ul>
+        </div>
+        <div class="nav-opened">
+          <i class="fas fa-arrow-left backIcon"></i>
+          <div class="article">
+            <h3 class="title">About the Daisy</h3>
+            <div class="box"></div>
+            <h2 class="title">Perfume and olfactory</h2>
+            <h2 class="title">marketing</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit apple
+              Blanditiis sapiente molestias hic modi sint recusandae tempora
+              ipsa fugit voluptatibus eaque debitis excepturi consectetur vero
+              atque laudantium soluta, voluptas distinctio earum!
+            </p>
+          </div>
+          <div class="nav-images">
+            <img src="./img/clothing1.webp" alt="" />
+            <img src="./img/clothing2.webp" alt="" />
+            <div class="box"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<header>
-  <nav>
-    <div class="nav-closed">
-      <h3 class="title">THE DAISY</h3>
-      <ul class="nav-links">
-        <li>shop</li>
-        <li>blog</li>
-        <li>contact</li>
-      </ul>
-    </div>
-    <div class="nav-opened">
-      <i class="fas fa-arrow-left backIcon"></i>
-      <div class="article">
-        <h3 class="title">About the Daisy</h3>
-        <div class="box"></div>
-        <h2 class="title">Perfume and olfactory</h2>
-        <h2 class="title">marketing</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit apple Blanditiis sapiente molestias hic modi sint recusandae tempora ipsa fugit voluptatibus eaque debitis excepturi consectetur vero atque laudantium soluta, voluptas distinctio earum!
-        </p>
+    <div class="container">
+      <h1 class="title">The Daisy</h1>
+      <div class="learn">
+        <p class="nav-button">learn more ...</p>
+        <div class="line"></div>
       </div>
-      <div class="nav-images">
-        <img src="./img/clothing1.jpg" alt="">
-        <img src="./img/clothing2.jpg" alt="">
-        <div class="box"></div>
-      </div>
+      <img class="cover" src="./img/mainPicture.webp" alt="" />
     </div>
-  </nav>
-</header>
 
-<div class="container">
-  <h1 class="title">The Daisy</h1>
-  <div class="learn">
-    <p class="nav-button">learn more ...</p>
-    <div class="line"></div>
-  </div>
-  <img class="cover" src="./img/mainPicture.jpg" alt="">
-</div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js" integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js" integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js" integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ==" crossorigin="anonymous"></script>
-<script src="./all.js"></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"
+      integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"
+      integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"
+      integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./all.js"></script>
+  </body>
 </html>
